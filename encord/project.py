@@ -43,7 +43,14 @@ from encord.orm.label_row import (
     ShadowDataState,
 )
 from encord.orm.model import ModelConfiguration, ModelTrainingWeights, TrainingMetadata
-from encord.orm.project import CopyDatasetOptions, CopyLabelsOptions, ProjectDataset, ProjectDTO, ProjectType
+from encord.orm.project import (
+    ActivePredictionPayload,
+    CopyDatasetOptions,
+    CopyLabelsOptions,
+    ProjectDataset,
+    ProjectDTO,
+    ProjectType,
+)
 from encord.orm.project import Project as OrmProject
 from encord.project_ontology.classification_type import ClassificationType
 from encord.project_ontology.object_type import ObjectShape
